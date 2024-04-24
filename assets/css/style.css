@@ -15,7 +15,6 @@ body{
 .fotoPerfil{
     border-radius: 200px;
     border: 4px solid white;
-    margin: 2rem;
 }
 .titulos{
     text-align: center;
@@ -50,6 +49,9 @@ ul li:before {
     font-family: "Font Awesome 5 Free";
     margin-right: 5px;
     padding-right: 1.5rem;
+}
+.imagen{
+    height: 200px;
 }
 .footer {
     background-color: #100B1F;

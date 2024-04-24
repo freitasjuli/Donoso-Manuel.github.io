@@ -57,15 +57,15 @@
       </nav>
 
     <!--Descripcion sobre mi y foto-->
-    <div class="container foto">    
-    <img class="fotoPerfil" src="assets/img/fotoPerfil.jpg" alt="Foto de Manuel Donoso, moreno, pelo crespo negro, ojos cafes">
+    <div class="container foto py-5">    
+    <img class="fotoPerfil col-12 col-md-4" src="assets/img/fotoPerfil.jpg" alt="Foto de Manuel Donoso, moreno, pelo crespo negro, ojos cafes">
     </div>  
     <div class="container titulos">
         <h1>MANUEL DONOSO A.</h1>
       </div>
 
-    <section id="sobreMi">
-        <div class=" container informacionPersonal ms-5">
+    <section id="sobreMi me-5">
+        <div class=" container informacionPersonal">
             <h2>Un poco de mi...</h2>
             <p>Mi nombre es Manuel Donoso, estudiante de "Programador Fullstack JS" y Back-End en Java. Tengo conocimientos de SQL, Sistemas operativos como windows, Linux y un poco de IOS.</p>
             <br>
@@ -80,7 +80,7 @@
     <section id="educacion">
         <div  class="container mb-0">
             <h2 class="titulos"><i class="fa-solid fa-graduation-cap"></i> Estudios</h2>
-        <ul class="listando ms-5">
+        <ul class="listando">
             <li><strong>Duoc UC: </strong>Analista Programador Computacional</li>
             <li><strong>Desafio Latam:</strong> Desarrollador Fullstack Javascript</li>
             <li><strong>Oracle Next Education: </strong>Desarrollo Back-End Java Orientacion a Objetos</li>
@@ -93,7 +93,7 @@
     <section id="experiencias">
         <div  class="container XP mb-0">
             <h2 class="titulos"><i class="fa-solid fa-book"></i> Mi Experiencia en informática</h2>
-        <ul class="listando ms-5">
+        <ul class="listando ">
             <li>
                 <strong>Desarrollo Web: </strong> experiencia en desarrollo web con HTML, CSS y Bootstrap.
             </li>
@@ -113,82 +113,90 @@
     <!--Seccion de portafolio de trabajos realizados-->
     
     <section id="portafolio" class="portafolioEstilo">
-        <h2 class="titulos"><i class="fa-solid fa-folder-closed"></i> PORTAFOLIO</h2>
-        <div class="container justify-content-around ms-5 ps-5">
-            <div class="row mb-5">
-              <div class="col-12 col-md-6 col-lg-4 mb-5">
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/img/desafio1.jpg" class="card-img-top" alt="imagen de proyecto de curriculum">
+      <h2 class="titulos"><i class="fa-solid fa-folder-closed"></i> PORTAFOLIO</h2>
+      <div class="justify-content-around row ps-5">
+        <div class="col-12 col-md-6 col-lg-3 m-2 p-2">
+                <div class="card">
+                    <img src="assets/img/desafio2.jpg" class="imagen card-img-top" alt="imagen de proyecto de terapia aromaticas">
                     <div class="card-body">
-                      <h5 class="card-title text-center">Curriculum Vitae</h5>
-                      <p class="card-text  text-center">Contruccion de un curriculum basico y lineal</p>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                      <li class="list-group-item"><i class="fa-solid fa-link"></i><a  href="https://donoso-manuel.github.io/curriculum/"> Acceder a Página Web</a></li>
-                      <li class="list-group-item"><i class="fa-solid fa-code"></i><a  href="https://github.com/Donoso-Manuel/curriculum"> Acceder a GitHub</a></li>
-                    </ul>
-                  </div>
-              </div>
-              <div class="col-12 col-md-6 col-lg-4 mb-5">
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/img/desafio2.jpg" class="card-img-top" alt="imagen de proyecto de terapia aromaticas">
-                    <div class="card-body">
-                      <h5 class="card-title text-center">Landing Page</h5>
-                      <p class="card-text text-center">Pagina de terapia aromáticas con aceites naturales</p>
+                      <h5 class="card-title text-center text-black">Landing Page</h5>
+                      <p class="card-text text-center text-black">Pagina de terapia aromáticas con aceites naturales</p>
                     </div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item"><i class="fa-solid fa-link"></i><a href="https://donoso-manuel.github.io/Teraromas/"> Acceder a Página Web</a></li>
                         <li class="list-group-item"><i class="fa-solid fa-code"></i><a href="https://github.com/Donoso-Manuel/Teraromas"> Acceder a GitHub</a></li>
                     </ul>
                   </div>
-              </div>
-              <div class="col-12 col-md-6 col-lg-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/img/desafio3.jpg" class="card-img-top" alt="imagen de proyecto de iguana">
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 m-2 p-2">
+                <div class="card" >
+                    <img src="assets/img/desafio3.jpg" class="imagen card-img-top" alt="imagen de proyecto de iguana">
                     <div class="card-body">
-                      <h5 class="card-title text-center">Iguana Page</h5>
-                      <p class="card-text text-center">Proyecto sobre las iguanas y sus características mas destacadas</p>
+                      <h5 class="card-title text-center text-black">Iguana Page</h5>
+                      <p class="card-text text-center text-black">Proyecto sobre las iguanas y sus características mas destacadas</p>
                     </div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item"><i class="fa-solid fa-link"></i><a href="https://donoso-manuel.github.io/IguanaPage/"> Acceder a Página Web</a></li>
                         <li class="list-group-item"><i class="fa-solid fa-code"></i><a href="https://github.com/Donoso-Manuel/IguanaPage"> Acceder a GitHub</a></li>
                     </ul>
                   </div>
-              </div>
-            </div>
-            <div class="row pb-5">
-                <div class="col-12 col-md-6 mb-5">
-                    <div class="card" style="width: 18rem;">
-                        <img src="assets/img/desafio4.jpg" class="card-img-top" alt="imagen de proyecto de cupones">
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 m-2 p-2">
+                    <div class="card" >
+                        <img src="assets/img/desafio4.jpg" class="imagen card-img-top" alt="imagen de proyecto de cupones">
                         <div class="card-body">
-                          <h5 class="card-title text-center">Cuppon</h5>
-                          <p class="card-text text-center">Página de cupones de descuento en diferentes tematicas como viajes, comidas y cuidado personal</p>
+                          <h5 class="card-title text-center text-black">Cuppon</h5>
+                          <p class="card-text text-center text-black">de cupones de descuento en viajes, comidas y cuidado personal</p>
                         </div>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item"><i class="fa-solid fa-link"></i><a href="https://donoso-manuel.github.io/cuppon/"> Acceder a Página Web</a></li>
                             <li class="list-group-item"><i class="fa-solid fa-code"></i><a href="https://github.com/Donoso-Manuel/cuppon"> Acceder a GitHub</a></li>
                         </ul>
                       </div>
-                </div>
-                <div class="col-12 col-md-6">
-                    <div class="card" style="width: 18rem;">
-                        <img src="assets/img/desafio5.jpg" class="card-img-top" alt="imagen proyecto analisis del clima">
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 m-2 p-2">
+                    <div class="card" >
+                        <img src="assets/img/desafio5.jpg" class="imagen card-img-top" alt="imagen proyecto analisis del clima">
                         <div class="card-body">
-                          <h5 class="card-title text-center">Analisis del Clima</h5>
-                          <p class="card-text text-center">Página informativa acerca de los cambios climaticos</p>
+                          <h5 class="card-title text-center text-black">Analisis del Clima</h5>
+                          <p class="card-text text-center text-black">Página informativa acerca de los cambios climaticos</p>
                         </div>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item"><i class="fa-solid fa-link"></i><a href="https://donoso-manuel.github.io/desafioGithub/"> Acceder a Página Web</a></li>
                             <li class="list-group-item"><i class="fa-solid fa-code"></i><a href="https://github.com/Donoso-Manuel/desafioGithub"> Acceder a GitHub</a></li>
                         </ul>
                       </div>
-                </div>
-              </div>
+        </div>
+              
+      </div>
+    </section>
+    <!--fortmulario-->
+    <section class="col-12">
+      <div class="formulario pr-5">
+        <h2 class="display-4 fw-bold text-light text-center my-4">Contáctame</h2>
+        <p class="text-center my-4 d-none text-light d-md-block">Si quieres saber mas sobre my y mi trabajo, o estas interesado en que trabaje parati o con tigo contactame </p>
+        <form class="formulario px-5">
+          <div class="form-group mb-4">
+              <label class="mb-2">Nombre</label>
+              <input class="form-control" placeholder="Nombre completo">
           </div>
+          <div class="form-group mb-4">
+              <label class="mb-2">Correo electrónico</label>
+              <input class="form-control" placeholder="Correo electrónico" />
+          </div>
+          <div class="form-group">
+              <label class="mb-2">Mensaje</label>
+              <textarea class="form-control" placeholder="Escribe aquí tu mensaje"></textarea>
+          </div>
+          <div class="my-3 text-end">
+              <button class="btn btn-light">Enviar</button>
+          </div>
+        </form>
+     </div>
     </section>
 
     <!--Footer de contacto-->
-    <section id="contacto" class="container-fluid footer">
+    <section id="contacto" class="container-fluid footer col-12">
         <div class="footer-content">
             <strong><p>Me pueden contactar en cualquiera de mis redes o al correo manueldonosoalfaro@gmail.com</p></strong>
         </div>
